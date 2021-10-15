@@ -24,16 +24,19 @@ INTO unique_titles
 FROM retirement_titles
 ORDER BY emp_no, to_date DESC;
 
---part 3 count retiring emoloyees by titles 
-SELECT COUNT(title), title
+--part 3 count retiring employees by recent titles 
+SELECT DISTINCT ON (title) title
+FROM unique_titles
+ORDER BY title
+
+SELECT COUNT(title) AS "Count", title AS "Title"
 INTO retiring_titles
 FROM unique_titles
 GROUP BY title
-ORDER BY COUNT(title) DESC;
-
-SELECT COUNT (*) FROM retiring_titles;
+ORDER BY "Count" desc;
 
 --Deliverable part 2 Mentorship
+
 SELECT DISTINCT ON (emp_no)
 e.emp_no, 
 e.first_name, 
