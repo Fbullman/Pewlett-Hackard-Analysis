@@ -1,4 +1,4 @@
--- deliverable 1 part 1
+--Retirement employees in Sales and Development department
 
 --PART 1
 
@@ -15,7 +15,7 @@ ON (e.emp_no = t.emp_no)
 WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
 ORDER BY emp_no ASC;
 
--- Use Dictinct with Orderby to remove duplicate rows for part 2/Deliverable 1
+-- Use Dictinct with Orderby to remove duplicate rows - part 2/Deliverable 1
 SELECT DISTINCT ON (rt.emp_no) rt.emp_no,
 rt.first_name,
 rt.last_name,
@@ -25,7 +25,7 @@ INTO unique_titles
 FROM retirement_titles AS rt
 ORDER BY emp_no ASC, to_date DESC;
 
---part 3SELECT 
+--part 3 SELECT 
 COUNT(ut.emp_no),ut.title
 --INTO retiring_titles
 FROM unique_titles as ut
