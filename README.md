@@ -22,6 +22,6 @@ Pewlett Hackard will need to fill the roles of 29,414 Senior Engineers, 28,255 S
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? 
 here is an image of the number for mentorship-eligible employees by title.
 
-![This is an image] (https://github.com/Fbullman/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Analysis/mentorship_titles.png)
+![This is an image](https://github.com/Fbullman/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Analysis/mentorship_titles.png)
 
 
