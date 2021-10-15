@@ -15,3 +15,7 @@ Determine the number of retiring employees by title and identify employees who a
 Pewlett Hackard will will need to fill the roles of 29,414 Senior Engineers, 28,255 Senior Staff, 14,222 Engineers, 12,242 Staff, 4502 Technique Leaders, 1761 Assistant Engineers, and 2 Managers. To better understand what this means for the company we can compare the numbers of employees retiring to the numbers of the total workforce. We can find the numbers of titles of all current employees regardless of age in this image:
 
 
+![This is an image](https://github.com/Fbullman/Pewlett-Hackard-Analysis/blob/main/Pewlett-Hackard-Analysis/total_titles.png)
+
+
+
